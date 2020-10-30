@@ -41,7 +41,7 @@ int main()
 				  std::cout << result;
 
 		break;
-		case '%': toint = static_cast<int>(number_1);
+		case '%': 	  toint = static_cast<int>(number_1);
 				  toint2 = static_cast<int>(number_2);
 				  std::cout << toint % toint2;
 
@@ -50,8 +50,8 @@ int main()
 		break;
 	}
 	return 0;
-  /* DO NOT READ THIS ONE. 
-	 CTRL + SHIFT + B - Terminal Configure Details then gcc.exe */
+     /* DO NOT READ THIS ONE. 
+        CTRL + SHIFT + B - Terminal Configure Details then gcc.exe */
 }
 
 
