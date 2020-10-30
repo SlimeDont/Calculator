@@ -33,17 +33,17 @@ int main()
 		}
 		break;
 		case 's': number_1 = 0;
-				  result = number_1 + number_2;
-				  std::cout << sqrt(result);
+			  result = number_1 + number_2;
+			  std::cout << sqrt(result);
 		break;
 		case 'x': number_1 = 1;
-				  result = number_1 / number_2;
-				  std::cout << result;
+		 	  result = number_1 / number_2;
+			  std::cout << result;
 
 		break;
-		case '%': 	  toint = static_cast<int>(number_1);
-				  toint2 = static_cast<int>(number_2);
-				  std::cout << toint % toint2;
+		case '%': toint = static_cast<int>(number_1);
+			  toint2 = static_cast<int>(number_2);
+			  std::cout << toint % toint2;
 
 		break;
 		default:  std::cout << "fuck you";
